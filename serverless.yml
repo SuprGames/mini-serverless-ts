@@ -1,0 +1,16 @@
+org: your-organization
+app: your-app
+service: your-service-name
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: nodejs12.x
+
+functions:
+  Handler:
+    handler: dist/handler.hello
+    events:
+      - httpApi:
+          path: /hello
+          method: get

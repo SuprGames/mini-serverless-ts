@@ -1,0 +1,12 @@
+{
+    "name": "duelz.fun-cognito",
+    "version": "1.0.0",
+    "description": "Cognito configuration for Duelz.fun",
+    "scripts": {
+        "build": "tsc",
+        "deploy": "npm run build && sls deploy"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "author": "Diego Marzo"
+}
